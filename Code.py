@@ -6,7 +6,7 @@ st.title('Public Transportation in Lebanon')
 st.write('Showing the different means of transportation and different condition of roads in Lebanese Governates')
 
 # Load your dataset
-data = pd.read_csv('/Users/walidaboulhosn/Downloads/Transportation.csv')
+data = pd.read_csv("https://github.com/Walidah2/MSBA-325-Assignment/blob/main/Transportation.csv")
 
 if st.checkbox('Show raw data'):
     st.subheader('Raw data')
